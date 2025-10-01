@@ -1,0 +1,41 @@
+ #old{
+            filter:opacity(50%)                                          
+         }
+         #old:hover{
+            filter:opacity(100%);
+            transition: 0.50s  ease-in;
+            transform: matrix(1.23); 
+         }
+         .box{
+
+            height: 22px;
+            width: 22px;
+            border-radius: 7px;
+            background-color: rgb(42, 201, 215);
+            position:static;
+            animation: box 1s infinite ease-in-out;
+         }
+            
+
+            .ball{
+
+            height: 0px;
+            width:0px;
+            border-radius: 0px;
+            background-color: rgb(42, 201, 215);
+            position:static;
+            animation: box 1s infinite ease-in-out;
+            }
+            
+            
+         @keyframes box{
+            0%,100%{
+                transform:rotate(360deg);
+            }
+
+            
+    50%
+{
+    transform:rotate(90deg);
+}
+         }
